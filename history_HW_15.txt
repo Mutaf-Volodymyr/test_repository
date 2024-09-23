@@ -1,0 +1,16 @@
+  596  echo "new change" >> README.md
+  597  cat README.md
+  598  git status
+  599  git add .
+  600  git status
+  601  git commit -m "new change to .gitignore and README.md"
+  602  git push
+  603  git push --set-upstream origin feature
+  604  git commit --amend -m "ammend"
+  605  git push
+  606  git log
+  607  git commit --amend -m "new change to .gitignore and README.md ammend"
+  608  git push
+  609  git checkout main
+  610  git merge feature
+  611  git branch
